@@ -10,7 +10,6 @@ console.log(foods[1]);
 foods.push("32", "Computer Science");
 console.log(foods);
 console.log(foods.length);
-foods.splice(2,1, "Burger"); // splice () method is used to replace & delete an item in an arrays
 // Pop function removes & return last elements from array
 foods.pop();
 
@@ -36,3 +35,41 @@ console.log(fruits, fruits.length);
 // unshift will add before the first element in array
 fruits.unshift("Grapes");
 console.log(fruits, fruits.length);
+
+// Iterating arrays with loops
+var languages = ["JavaScript", "Python", "C#", "C++"];
+for(var i = 0; i < languages.length; i++){
+    console.log(languages[i]);
+}
+
+// Another example
+var arr = [];
+for(var i=0; i<5; i++){
+    arr[i] = i * 4;
+    console.log(arr[i]);
+}
+
+// Searching in Array
+var num = [24,32,55,11,55,66,87];
+var input = prompt("Enter number to find in an array");
+console.log("User input ",input);
+var found = false;
+for(var i=0; i<num.length; i++){
+    // console.log(num[i]);
+    if(num[i] === input){
+        console.log("Found "+ input + " on index = " + i);
+        found = true;
+        break;
+    }
+}
+if(!found){
+    console.log("Not found");
+}
+
+// Splice() method is used to add element in middle of an array & replace if needed
+var cars = ["Lamborghni", "Tesla", "Toyota", "BMW"];
+cars.splice(1,2, "Mercedes");
+console.log(cars);
+// Slice() function 
+var arr = cars.slice(1,3);
+console.log(arr);
