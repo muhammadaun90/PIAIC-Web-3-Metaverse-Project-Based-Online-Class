@@ -33,3 +33,6 @@ fruits.push("Watermelon");
 console.log(fruits, fruits.length);
 fruits.shift();
 console.log(fruits, fruits.length);
+// unshift will add before the first element in array
+fruits.unshift("Grapes");
+console.log(fruits, fruits.length);
