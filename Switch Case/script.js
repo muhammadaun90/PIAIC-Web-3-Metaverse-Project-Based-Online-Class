@@ -21,4 +21,6 @@ switch(day){
     case "Sunday":
         console.log("Today is Metaverse online class");
          break;
+    default:
+        console.log("Check! You have entered wrong spelling or day name");
 }
