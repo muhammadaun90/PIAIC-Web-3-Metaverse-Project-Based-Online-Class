@@ -7,5 +7,6 @@ let car = {
 };
 // Manipulating objects with loops
 for(let key in car){
-    console.log(car[key]);
+    // console.log(car[key]);
+    console.log(key, car[key]);
 }
