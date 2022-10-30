@@ -1,8 +1,10 @@
-let firstName = "Muhammad";
-let lastName = "auN"
-let fullName = firstName + " " + lastName;
-console.log(fullName);
-let upperName = fullName.toUpperCase();
-console.log(upperName);
-let lowerName = fullName.toLowerCase();
-console.log(lowerName);
+let userName = "AUn";
+console.log(userName);
+// Upper Case
+let userNameToUpperCase = userName.toUpperCase();
+console.log(userNameToUpperCase);
+// Lower Case
+let userNameToLowerCase = userName.toLowerCase();
+console.log(userNameToLowerCase);
+// Title Case
+console.log(userName[0].toUpperCase() + userName.slice(1).toLowerCase());
