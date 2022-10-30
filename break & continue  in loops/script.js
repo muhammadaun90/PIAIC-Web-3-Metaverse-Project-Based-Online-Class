@@ -26,14 +26,14 @@ let cars = [
     }
 ];
 // Using break
-// for(let i = 0; i < cars.length; i++){
-//     if(cars[i].year >= 2020){
-//         if(cars[i].color == "black"){
-//             console.log("I have found my new car: ", cars[i]);
-//             break;
-//         }
-//     }
-// }
+for(let i = 0; i < cars.length; i++){
+    if(cars[i].year >= 2020){
+        if(cars[i].color == "black"){
+            console.log("I have found my new car: ", cars[i]);
+            break;
+        }
+    }
+}
 // Using continue
 for(let car of cars){
     if(car.color == "black"){
