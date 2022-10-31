@@ -22,11 +22,12 @@ accordingly, with the exception of Rock beating Scissors.
 computer selection and the result of the game. */
 
 const choices = ["Rock", "Paper", "Scissors"];
+
 let player = Math.floor(Math.random() * 3);
 let computer= Math.floor(Math.random() * 3);
 let message = "player " + choices[player] + " vs computer " + choices[computer] + " ";
 if(player === computer){
-    message += "Its a tie"
+    message += "Its a tie";
 }
 else if(player > computer){
     if(computer == 0 && player == 2){
