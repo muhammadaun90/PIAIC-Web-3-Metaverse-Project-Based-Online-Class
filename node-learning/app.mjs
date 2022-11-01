@@ -16,3 +16,10 @@ function add(a,b){
 }
 const result = add(2,5);
 console.log(result);
+
+// synthetic sugar passing by arrow function
+const subtract = (a, b) => {
+    return a-b;
+}
+const resultSub = subtract(7,2);
+console.log(resultSub);
