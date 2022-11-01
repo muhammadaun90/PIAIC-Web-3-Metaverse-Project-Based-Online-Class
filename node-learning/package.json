@@ -1,0 +1,14 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "Function using node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Aun",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
