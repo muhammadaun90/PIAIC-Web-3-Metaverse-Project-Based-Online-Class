@@ -1,3 +1,4 @@
+// Function definition
 function hello(){
     return 'Hello World!';
 }
@@ -8,3 +9,10 @@ let userName = function(){
     return 'Hello Aun!';
 };
 console.log(userName());
+
+// add function
+function add(a,b){
+    return a+b;
+}
+const result = add(2,5);
+console.log(result);
