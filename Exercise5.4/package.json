@@ -1,0 +1,16 @@
+{
+  "name": "exercise5.4",
+  "version": "1.0.0",
+  "description": "Creating a table generator with a nested loop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "table",
+    "nested",
+    "loops"
+  ],
+  "author": "Aun",
+  "license": "ISC"
+}
