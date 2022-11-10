@@ -5,10 +5,10 @@
 value.
 5. Invoke the function. */
 
-let myArr = ["Aun", "Computer Science", "IT", "JavaScript", "Constructors", "Destructors", "functions"];
-function askUser (){
-    let userName = prompt("What's your name?");
-    let randomValue = Math.floor(Math.random() * myArr.length);
-    console.log(myArr[randomValue] + " " + userName);
+let descriptiveWords = ["Aun", "IT", "Software", "Web 3.0", "Metaverse"];
+function askUser() {
+    let userInput = prompt("Enter the name");
+    let randomValue = Math.floor(Math.random() * descriptiveWords.length);
+    console.log(userInput, descriptiveWords[randomValue]);
 }
-myArr();
+askUser();
