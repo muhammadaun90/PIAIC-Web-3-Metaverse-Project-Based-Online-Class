@@ -1,0 +1,16 @@
+{
+  "name": "functionswithtwoparametersbutcallingfour",
+  "version": "1.0.0",
+  "description": "If you call a function with more arguments than parameters, nothing will happen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "functions",
+    "parameters",
+    "arguments"
+  ],
+  "author": "Aun",
+  "license": "ISC"
+}
