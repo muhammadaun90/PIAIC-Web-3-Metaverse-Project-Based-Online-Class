@@ -1,0 +1,15 @@
+{
+  "name": "spread_operator",
+  "version": "1.0.0",
+  "description": "Spread Operator ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spread",
+    "operator"
+  ],
+  "author": "Aun",
+  "license": "ISC"
+}
