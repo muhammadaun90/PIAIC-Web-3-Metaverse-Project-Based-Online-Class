@@ -15,15 +15,15 @@ the response to the console.
 5. Update the operator value to be the other operator type—either plus or
 minus—and call to the function again with the new updated arguments. */
 
-let num1 = 10;
-let num2 = 15;
+let num1 = 15;
+let num2 = 20;
 let operator = "-";
-function calculate(a,b,oper) {
-    if(oper == "-"){
-        console.log(a-b);
+function calculator(a,b,op) {
+    if(op == "-"){
+        console.log(a-b);;
     }
     else{
         console.log(a+b);
     }
 }
-calculate(num1,num2,operator);
+calculator(num1,num2,operator);
