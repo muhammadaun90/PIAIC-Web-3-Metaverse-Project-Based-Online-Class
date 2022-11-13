@@ -11,5 +11,5 @@ console.log(result);
 // Another example
 const greet = (name) => {
     console.log(`Hello ${name}`);
-};
-greet('Aun');
+}
+greet("Aun");
