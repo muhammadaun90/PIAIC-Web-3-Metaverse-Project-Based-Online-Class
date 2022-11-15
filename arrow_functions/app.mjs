@@ -20,3 +20,9 @@ let degree = (x,y) => {
 }
 const finalDegree = degree("BS", "MS");
 console.log(finalDegree);
+
+// Another one
+const addNum = (a = 12, b = 15) => {
+    console.log(a+b);
+}
+addNum();
