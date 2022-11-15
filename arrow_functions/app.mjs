@@ -13,3 +13,10 @@ const greet = (name) => {
     console.log(`Hello ${name}`);
 }
 greet("Aun");
+
+// One more example
+let degree = (x,y) => {
+    return x,y;
+}
+const finalDegree = degree("BS", "MS");
+console.log(finalDegree);
