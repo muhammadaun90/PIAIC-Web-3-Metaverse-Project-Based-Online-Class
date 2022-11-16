@@ -1,0 +1,16 @@
+{
+  "name": "math_multi_table",
+  "version": "1.0.0",
+  "description": "Math Multiplication Table",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "multiplication",
+    "table"
+  ],
+  "author": "Aun",
+  "license": "ISC"
+}
