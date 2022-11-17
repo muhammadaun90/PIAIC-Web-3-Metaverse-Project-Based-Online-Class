@@ -27,7 +27,7 @@ const addNum = (a = 12, b = 15) => {
 }
 addNum();
 
-// this
+// this method in regular functions
 const userName = {
     firstName: "Muhammad",
     lastName: "Aun",
