@@ -26,3 +26,11 @@ const addNum = (a = 12, b = 15) => {
     console.log(a+b);
 }
 addNum();
+
+// this
+const userName = {
+    firstName: "Muhammad",
+    lastName: "Aun",
+    fullName: function() {return this.firstName + " " + this.lastName}
+}
+console.log(userName.fullName());
