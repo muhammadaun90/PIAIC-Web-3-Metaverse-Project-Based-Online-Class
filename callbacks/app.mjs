@@ -1,3 +1,6 @@
+import PromptSync from "prompt-sync";
+const prompt = PromptSync();
+
 function doSomething(callback) {
     callback();
 }
@@ -44,4 +47,4 @@ function getGrade(score, callback) {
     }
     callback(grade);
 }
-getGrade(91, judge);
+getGrade(92, judge);
