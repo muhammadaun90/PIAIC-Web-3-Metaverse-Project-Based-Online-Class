@@ -20,8 +20,8 @@ function greet(fullName) {
     console.log(`Hello ${fullName[0]+' '+fullName[1]} how are you doing?`);
 }
 function secondFunc(userName, callback) {
-    const name = userName.split(" ");
-    // console.log(name);
-    callback(name);
+    const fullName = userName.split(" ");
+    // console.log(fullName);
+    callback(fullName);
 }
 secondFunc("Aun Zaidi", greet);
