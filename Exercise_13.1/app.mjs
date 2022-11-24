@@ -16,11 +16,11 @@ the user's full name, and the second is the callback function.
 //     console.log("Hello Aun Zaidi");
 // }, 1000);
 
-function greet(fullName) {
-    console.log(`Hello ${fullName[0]+' '+fullName[1]} how are you doing?`);
+const greet = (fullName) => {
+    console.log(`Hello ${fullName[0]+' '+fullName[1]}, how are you?`);
 }
-function secondFunc(userName, callback) {
-    const fullName = userName.split(" ");
+const secondFunc = (user, callback) => {
+    const fullName = user.split(" ");
     // console.log(fullName);
     callback(fullName);
 }
