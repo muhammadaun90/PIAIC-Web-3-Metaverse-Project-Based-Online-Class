@@ -8,7 +8,7 @@ function myCall(param) {
 }
 
 doSomething(myCall);
-console.log("End");
+console.log("Day starts!");
 
 const makeToast = (cb) => {
     setTimeout(() => {
@@ -27,3 +27,11 @@ const makeLassi = (Lassi) =>{
 }
 const cb2 = (param1) => console.log(param1);
 makeLassi(cb2);
+
+const makeBiryani = (Lunch) =>{
+    setTimeout(() => {
+        Lunch("Biryani is ready to eat!");
+    }, 15000);
+}
+const callback3 = (cb3) => console.log(cb3);
+makeBiryani(callback3);
