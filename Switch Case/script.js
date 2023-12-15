@@ -1,26 +1,27 @@
-var day = prompt("Enter any day");
-switch(day){
+var day = prompt("Enter the day");
+switch (day) {
     case "Monday":
-        console.log("Today is JavaScript onsite class");
+        console.log("Today's menu is Chicken Karahi");
         break;
     case "Tuesday":
-        console.log("Today is JavaScript online class");
+        console.log("Today's menu is Daal Chawal");
         break;
     case "Wednesday":
-        console.log("Today is Python onsite class");
+        console.log("Today's menu is Sabzi");
         break;
     case "Thursday":
-        console.log("Today is C# onsite class");
+        console.log("Today's menu is Aalu Qeema");
         break;
     case "Friday":
-        console.log("Today is Python online class");
-         break;
+        console.log("Today's menu is Chicken Biryani");
+        break;
     case "Saturday":
-        console.log("Today is Web 3.0 onsite class");
+        console.log("Today's menu is Tehri");
         break;
     case "Sunday":
-        console.log("Today is Metaverse online class");
-         break;
+        console.log("Today's menu is Chinese Rice with Shashlik");
+        break;
     default:
-        console.log("Check! You have entered wrong spelling or day name");
+        console.log("You have entered wrong spelling!");
+        break;
 }

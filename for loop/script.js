@@ -25,3 +25,8 @@ for(let i = 1; i < 11 ; i++){
     myWork.push(temporary); // push objects to myWork array
 }
 console.log(myWork);
+
+// Simplest understanding of for loops
+for (var i = 0; i <= 3; i++) {
+    console.log("This is line ", i)
+}

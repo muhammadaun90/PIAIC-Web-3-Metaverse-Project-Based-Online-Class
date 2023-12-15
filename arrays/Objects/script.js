@@ -19,3 +19,14 @@ let user1 = [{
     Qualification: "Bachelors in Software Engineering",
 }];
 console.log(user1);
+
+// Bracket Notation
+let arrOfKeys = ["Speed", "Altitude", "Color"];
+let drone = {
+    Speed: 100,
+    Altitude: 200,
+    Color: "Red"
+}
+for (let i = 0; i < arrOfKeys.length; i++) {
+    console.log(drone[arrOfKeys[i]]);
+}

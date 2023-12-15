@@ -36,6 +36,20 @@ var canYouCode = true;
 let message1 = `Hello my name is ${name1} , I am ${age} years old and I can code ${language1}:
 ${canYouCode}`; // Template literal
 console.log(message1);
+// Symbol
+let str1 = "JavaScript is fun";
+let str2 = "JavaScript is not fun";
+console.log("These two symbols are the same:", str1 === str2);
+let sym1 = "Zain is playing with 2 cars";
+let sym2 = "Zain is playing with 2 cars";
+console.log("These two symbols are the same:", sym1 === sym2);
+// Undefined
+let yourName;
+console.log(yourName);
+// if we add two different data types
+var r = "Aun";
+var t = 123;
+console.log(r+t);
 // Modulus
 let num1 = 20;
 let num2 = 3;
