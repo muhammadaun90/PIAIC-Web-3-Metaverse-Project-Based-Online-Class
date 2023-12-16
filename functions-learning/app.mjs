@@ -10,6 +10,11 @@ let userName = function(){
 };
 console.log(userName());
 
+let square = function (number) {
+    return number * number;
+}
+console.log(square(5));
+
 // add function
 function add(a,b){
     return a+b;
