@@ -20,11 +20,18 @@ try {
     console.log("Good bye");
 }
 
-throw new Error();
-console.log("Hello");
+/* throw new Error(); // Uncaught Error
+console.log("Hello"); */
 
-try {
-    console.log('Hello);
+/* try {
+    console.log('Hello); // It will show "Uncaught SyntaxError: Invalid or unexpected token
 } catch (e) {
     console.log('caught');
+} */
+
+try {
+    throw new Error();
+    console.log("Hello");
+} catch (err) {
+    console.log("Goodbye");
 }

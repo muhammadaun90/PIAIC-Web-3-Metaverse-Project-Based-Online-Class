@@ -72,12 +72,6 @@ letterFinder("cat", "c");
 var result = null;
 console.log(result);
 
-try {
-    console.log("hello");
-} catch (err) {
-    console.log("Good bye");
-}
-
 var x;
 if(x === null) {
   console.log("null");
@@ -86,6 +80,3 @@ if(x === null) {
 } else {
   console.log("ok");
 }
-
-throw new Error();
-console.log("Hello");
