@@ -35,3 +35,9 @@ try {
 } catch (err) {
     console.log("Goodbye");
 }
+
+try {
+    Number(5).toPrecision(300)
+} catch (err) {
+    console.log("There was an error");
+}
