@@ -68,3 +68,24 @@ function letterFinder(word, match) {
 }
 letterFinder(5, 4);
 letterFinder("cat", "c");
+
+var result = null;
+console.log(result);
+
+try {
+    console.log("hello");
+} catch (err) {
+    console.log("Good bye");
+}
+
+var x;
+if(x === null) {
+  console.log("null");
+} else if(x === undefined) {
+  console.log("undefined");
+} else {
+  console.log("ok");
+}
+
+throw new Error();
+console.log("Hello");

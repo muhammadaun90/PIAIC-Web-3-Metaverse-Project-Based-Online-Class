@@ -13,3 +13,18 @@ try {
     console.log("There was a Reference Error");
 }
 console.log("My program does not stop");
+
+try {
+    console.log("hello");
+} catch (err) {
+    console.log("Good bye");
+}
+
+throw new Error();
+console.log("Hello");
+
+try {
+    console.log('Hello);
+} catch (e) {
+    console.log('caught');
+}
