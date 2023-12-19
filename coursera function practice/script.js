@@ -94,3 +94,14 @@ const myCar = {
 console.log(myCar.make);
 myFunc(myCar);
 console.log(myCar.make);
+
+/* When you pass an array as a parameter.
+If the function changes any of the array's values, 
+that change is visible outside the function. */
+function passArray(myArr) {
+    myArr[0] = 30;
+}
+const arr = [45];
+console.log(arr[0]);
+passArray(arr);
+console.log(arr[0]);
