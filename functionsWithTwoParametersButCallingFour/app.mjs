@@ -1,7 +1,7 @@
 // If you call a function with more arguments than parameters, nothing will happen.
 
 function addTwo(a = 25, b = 35) {
-    console.log(a+b);;    
+    console.log(a+b);
 }
 addTwo();
 // Calling a function with more arguments than parameters
