@@ -80,3 +80,17 @@ if(x === null) {
 } else {
   console.log("ok");
 }
+
+/* When you pass an object as a parameter in a function.
+If the function changes the object's properties, that change is visible outside the function. */
+function myFunc(theObject) {
+    theObject.make = "Toyota";
+}
+const myCar = {
+    make: "Honda",
+    model: "Accord",
+    year: 2019
+};
+console.log(myCar.make);
+myFunc(myCar);
+console.log(myCar.make);
