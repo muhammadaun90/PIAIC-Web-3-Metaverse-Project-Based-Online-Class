@@ -116,3 +116,31 @@ function convertCurrency(amount, rate) {
 }
 currencyTwo = convertCurrency(currencyOne, exchangeRate);
 console.log(currencyTwo);
+
+// var globalVar = 77;
+// function scopeTest() {
+//     var localVar = 88;
+// }
+// console.log(localVar); // result localVar is not defined as it's block scoped
+
+
+function meal(animal) {
+    animal.food = animal.food + 10;
+}
+var dog = {
+    food: 10
+};
+meal(dog);
+meal(dog);
+console.log(dog.food);
+
+function two() {
+    return 2;
+}
+function one() {
+    return 1;
+}
+function calculate(initialValue, incrementValue) {
+    return initialValue() + incrementValue() + incrementValue();
+}
+console.log(calculate(two, one));
