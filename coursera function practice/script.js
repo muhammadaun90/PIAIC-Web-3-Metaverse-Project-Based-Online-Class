@@ -144,3 +144,13 @@ function calculate(initialValue, incrementValue) {
     return initialValue() + incrementValue() + incrementValue();
 }
 console.log(calculate(two, one));
+
+// Passing a function as an argument
+function sayHello() {
+    return "Hello, ";
+}
+function greeting(helloMessage, name) {
+    console.log(helloMessage() + name);
+}
+// Pass `sayHello` as an argument to `greeting` function
+greeting(sayHello, "JavaScript!"); // Hello, JavaScript!  
