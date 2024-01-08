@@ -117,6 +117,15 @@ function convertCurrency(amount, rate) {
 currencyTwo = convertCurrency(currencyOne, exchangeRate);
 console.log(currencyTwo);
 
+// Another example of functional programming paradigm approach
+const bikePrice = 160000;
+const itsTax = 1.1;
+function totalPrice(bike, tax) {
+    return bike * tax;
+}
+const toPay = totalPrice(bikePrice, itsTax);
+console.log(toPay);
+
 // var globalVar = 77;
 // function scopeTest() {
 //     var localVar = 88;
