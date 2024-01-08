@@ -165,7 +165,7 @@ function greeting(helloMessage, name) {
 greeting(sayHello, "JavaScript!"); // Hello, JavaScript!
 
 // Object Oriented Programming Approach
-var purchase = {
+var purchase1 = {
     suit: 2500,
     salesTax: 1.05,
     finalPrice: function () {
@@ -173,4 +173,13 @@ var purchase = {
         console.log("Final Price is: ", calculattion);
     }
 }
-purchase.finalPrice();
+purchase1.finalPrice();
+var purchase2 = {
+    shoes: 5000,
+    salesTax: 1.05,
+    finalPrice: function () {
+        var calculattion = this.shoes * this.salesTax;
+        console.log("Final Price is: ", calculattion);
+    }
+}
+purchase2.finalPrice();
