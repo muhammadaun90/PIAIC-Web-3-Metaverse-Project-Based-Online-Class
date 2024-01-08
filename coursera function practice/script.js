@@ -162,4 +162,15 @@ function greeting(helloMessage, name) {
     console.log(helloMessage() + name);
 }
 // Pass `sayHello` as an argument to `greeting` function
-greeting(sayHello, "JavaScript!"); // Hello, JavaScript!  
+greeting(sayHello, "JavaScript!"); // Hello, JavaScript!
+
+// Object Oriented Programming Approach
+var purchase = {
+    suit: 2500,
+    salesTax: 1.05,
+    finalPrice: function () {
+        var calculattion = this.suit * this.salesTax;
+        console.log("Final Price is: ", calculattion);
+    }
+}
+purchase.finalPrice();
