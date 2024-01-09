@@ -169,8 +169,8 @@ var purchase1 = {
     suit: 2500,
     salesTax: 1.05,
     finalPrice: function () {
-        var calculattion = this.suit * this.salesTax;
-        console.log("Final Price is: ", calculattion);
+        var calculation = this.suit * this.salesTax;
+        console.log("Final Price is: ", calculation);
     }
 }
 purchase1.finalPrice();
@@ -178,8 +178,8 @@ var purchase2 = {
     shoes: 5000,
     salesTax: 1.05,
     finalPrice: function () {
-        var calculattion = this.shoes * this.salesTax;
-        console.log("Final Price is: ", calculattion);
+        var calculation = this.shoes * this.salesTax;
+        console.log("Final Price is: ", calculation);
     }
 }
 purchase2.finalPrice();
