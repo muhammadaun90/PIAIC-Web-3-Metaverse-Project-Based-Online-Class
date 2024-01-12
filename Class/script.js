@@ -29,39 +29,56 @@ All I want is to use it. */
 // OOP Principles: Polymorphism (Multiple forms)
 const bicycle = {
     bell: function () {
-        return "Ring, ring! Watch out, please."
+        return "Ring! Watch out, please.";
     }
 }
 const door = {
-    bell: function () {
-        return "Ring, ring! Come here, please."
+    bell() {
+        return "Ring! Come in, please.";
     }
 }
-bicycle.bell();
-door.bell();
+console.log(bicycle.bell());
+console.log(door.bell());
 // Now, to make this code truly polymorphic, I'll add another function declaration:
 function ringTheBell(thing) {
     console.log(thing.bell);
 }
 ringTheBell(door);
+ringTheBell(bicycle);
 
 // Another example of polymorphism using classes in JavaScript
-class Sememster {
-    progLang() {
-        console.log("Learn JavaScript");
+class Semester {
+    learn() {
+        console.log("JavaScript");
     }
 }
-class Winter extends Sememster {
-    progLang() {
+class Courses extends Semester {
+    learn() {
         console.log("Intro to Python");
     }
 }
-class Courses extends Winter {
-    progLang() {
-        console.log("Intro to Power BI");
+class Language extends Courses {
+    learn() {
+        console.log("Intro to Data Science");
     }
 }
-var dataScience = new Winter();
-var analytics = new Courses();
-dataScience.progLang();
-analytics.progLang();
+let django = new Courses();
+let dataAnalytics = new Language();
+django.learn();
+dataAnalytics.learn();
+
+/* Constructors are special functions that allow us to build instances of these built-in native objects.
+All the constructors are capitalized; example */
+function IceCream(flavor) {
+    this.flavor = flavor;
+    this.meltIt = function() {
+        console.log(`The ${flavor} icecream has melted`);
+    }
+}
+let mangoIcecream = new IceCream("mango");
+let vanillaIcecream = new IceCream("vanilla");
+console.log(mangoIcecream);
+console.log(vanillaIcecream);
+
+let apple = new String("apple")
+console.log(apple);
