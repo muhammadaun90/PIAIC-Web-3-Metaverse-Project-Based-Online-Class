@@ -18,6 +18,13 @@ class Animal2 {};
 class Bird2 extends Animal2 {};
 class Sparrow extends Bird2 {};
 
+/* OOP Principles: Encapsulatoin
+Encapsulation ha sto do with making a code implementation "hidden" from other users.
+for eg */
+"abc".toUpperCase();
+/* I don't really need to worry or even waste time thinking about how the toUpperCase() method works.
+All I want is to use it. */
+
 // OOP Principles: Polymorphism (Multiple forms)
 const bicycle = {
     bell: function () {
@@ -31,3 +38,8 @@ const door = {
 }
 bicycle.bell();
 door.bell();
+// Now, to make this code truly polymorphic, I'll add another function declaration:
+function ringTheBell(thing) {
+    console.log(thing.bell);
+}
+ringTheBell(door);
