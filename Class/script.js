@@ -6,6 +6,7 @@ console.log(Animal);
 /* A more common method of creating objects from classes is to use 'new' keyword.
 When using a default or empty constructor method, JavaScript implicitly calls the Object superclass to create the instance. */
 class Bird {};
+// Creating a new bird
 var myParrot = new Bird();
 console.log(Bird);
 
@@ -43,3 +44,24 @@ function ringTheBell(thing) {
     console.log(thing.bell);
 }
 ringTheBell(door);
+
+// Another example of polymorphism using classes in JavaScript
+class Sememster {
+    progLang() {
+        console.log("Learn JavaScript");
+    }
+}
+class Winter extends Sememster {
+    progLang() {
+        console.log("Intro to Python");
+    }
+}
+class Courses extends Winter {
+    progLang() {
+        console.log("Intro to Power BI");
+    }
+}
+var dataScience = new Winter();
+var analytics = new Courses();
+dataScience.progLang();
+analytics.progLang();
