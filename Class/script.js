@@ -80,5 +80,17 @@ let vanillaIcecream = new IceCream("vanilla");
 console.log(mangoIcecream);
 console.log(vanillaIcecream);
 
+// Another example of constructor:
+function Skills(language) {
+    this.language = language;
+    this.learnIt = function () {
+        console.log(`Guys ${this.learnIt} please.`);
+    }
+}
+let phpLanguage = new Skills("php");
+let mySQL = new Skills("mySQL");
+console.log(phpLanguage);
+console.log(mySQL);
+
 let apple = new String("apple")
 console.log(apple);
