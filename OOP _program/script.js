@@ -106,3 +106,6 @@ leo.makeSound(true); // purr, meow
 var cuddles = new Tiger();
 cuddles.makeSound(false); // Roar!
 cuddles.makeSound(true); // purr, Roar!
+var persianCat = new HouseCat();
+persianCat.furColor = "white";
+console.log("Persian cat fur color: ", persianCat.furColor); // White
