@@ -15,6 +15,16 @@ console.log("penguin has wings: ", penguin.hasWings);
 console.log("penguin has feather: ", penguin.hasFeather);
 console.log("penguin can fly: ", penguin.canFly);
 
+let language = {
+    speak: true,
+    write: true,
+    read: true
+}
+console.log(language);
+let englishLanguage = Object.create(language);
+englishLanguage.speak = false;
+console.log("He can speak english: ", englishLanguage);
+
 // Inheritance using classes in JavaScript
 class Train {
     constructor(color, lightsOn) {
