@@ -155,3 +155,55 @@ function manager() {
     return newManager;
 }
 manager();
+
+class Cake {
+    constructor(lyr) {
+        this.layers = lyr + 1;
+    }
+}
+var result = new Cake(1);
+console.log(result.layers);
+
+
+class Animal2 {
+    constructor(lg) {
+        this.legs = lg;
+    }
+}
+class Dog extends Animal2 {
+    constructor() {
+        super(4);
+    }
+}
+var result = new Dog();
+console.log(result.legs);
+
+
+class Animal4 {
+
+}
+
+class Cat2 extends Animal4 {
+  constructor() {
+    super();
+    this.noise = "meow";
+  }
+}
+
+var result = new Animal4();
+console.log(result.noise);
+
+class Person2 {
+    sayHello() {
+        console.log("Hello");
+    }
+}
+
+class Friend extends Person2 {
+    sayHello() {
+        console.log("Hey");
+    }
+}
+
+var result = new Friend();
+result.sayHello();
