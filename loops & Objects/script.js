@@ -47,3 +47,15 @@ const skills = {
 console.log(Object.values(skills));
 // The Object.entries() method returns an array of [key, value] pairs
 console.log(Object.entries(skills));
+
+// loop over any object's own property keys and values.
+let clothingItem = {
+    itemName: "T-Shirt",
+    size: "M",
+    price: 1500,
+    material: "Polyester",
+    color: "Navy Blue"
+};
+for (let key of Object.keys(clothingItem)) {
+    console.log(key, ":", clothingItem[key]);
+}
