@@ -28,3 +28,14 @@ bestPlayer.set(3, "Rabab");
 console.log(bestPlayer);
 // To get a specific value, you need to use the get() method
 console.log("Best player is ", bestPlayer.get(1));
+
+/* Working with Sets in JavaScript:
+A set is a collection of unique values.
+To build a new set, you can use the Set constructor:
+new set();
+The Set constructor can, for example, accept an array.
+This means that we can use it to quickly filter an array for unique members.
+*/
+let cartoons = ['Tom & Jerry', 'Coco Melon', 'Johnny Bravo', 'Scooby Doo', 'Coco Melon', 'Johnny Bravo'];
+let uniqueCartoons = new Set(cartoons);
+console.log(uniqueCartoons);
