@@ -15,3 +15,16 @@ numbers.filter(function (value, index, array) {
     return value % 2 === 0;
 });
 console.log(numbers);
+
+/* Working with Maps in JavaScript
+To make a new Map, you can use the Map constructor:
+new Map(); 
+However, it doesn't have inheritance. No prototypes! This makes it useful as a data storage.
+*/
+let bestPlayer = new Map();
+bestPlayer.set(1, "Zain");
+bestPlayer.set(2, "Aun");
+bestPlayer.set(3, "Rabab");
+console.log(bestPlayer);
+// To get a specific value, you need to use the get() method
+console.log("Best player is ", bestPlayer.get(1));
