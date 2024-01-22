@@ -20,3 +20,14 @@ function addTaxToPrices(taxRate, ...itemsBought) {
 }
 let shoppingCart = addTaxToPrices(2, 4, 6, 8, 10);
 console.log(shoppingCart);
+
+// It's also easy to join objects:
+let flying = {wings: 2};
+let swimming = {canSwim: true};
+let flySwim = {...flying, ...swimming};
+console.log(flySwim);
+
+// Add new members to arrays without using the push() method
+let shows = ["GOT", "KBC", "ABC"];
+shows = [...shows, "Money Heist", "Berlin"];
+console.log(shows);
