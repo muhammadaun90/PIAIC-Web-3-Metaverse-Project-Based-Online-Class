@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Modules</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>JavaScript Modules</h1>
+    <script type="module">
+        import {informalGreeting} from './script.js';
+        informalGreeting("Aun Zaidi");
+    </script>
+    <script type="module">
+        import {informalGreeting, formalGreeting} from './script.js';
+        import greeting from './script.js';
+        formalGreeting("Zain");
+        greeting();
+    </script>
+</body>
+</html>
