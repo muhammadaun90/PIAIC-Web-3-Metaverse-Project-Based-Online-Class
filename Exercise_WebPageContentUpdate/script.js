@@ -51,5 +51,4 @@ function handleClicks() {
 You've created an h1 variable in Task 2.
 Now, use that variable to run the addEventListener() method on it.
 Pass two arguments to the addEventListener() method: 'click' and handleClicks */
-// console.log(h1);
 h1.addEventListener('click', handleClicks);
