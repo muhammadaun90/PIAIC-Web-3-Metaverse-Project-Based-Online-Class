@@ -17,3 +17,8 @@ var data = {
 };
 var jsonData = JSON.stringify(data);
 console.log('JSON Data: ', jsonData);
+
+var result = {
+    value: 7
+};
+console.log(JSON.stringify(result));
