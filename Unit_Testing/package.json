@@ -1,0 +1,16 @@
+{
+  "name": "unit_testing",
+  "version": "1.0.0",
+  "description": "Unit testing assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unit",
+    "testing",
+    "jest"
+  ],
+  "author": "Aun",
+  "license": "MIT"
+}
