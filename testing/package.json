@@ -10,5 +10,8 @@
     "testing"
   ],
   "author": "Aun",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
