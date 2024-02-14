@@ -1,0 +1,15 @@
+{
+  "name": "looped-over-object-assignment",
+  "version": "1.0.0",
+  "description": "Coursera Looped-over Object assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "looped-over",
+    "object"
+  ],
+  "author": "Aun",
+  "license": "MIT"
+}
